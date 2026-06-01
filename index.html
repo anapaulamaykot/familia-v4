@@ -81,9 +81,11 @@
       background: var(--black);
       display: flex;
       align-items: center;
+      justify-content: center;
       position: relative;
       overflow: hidden;
-      padding: 80px clamp(1.5rem, 8vw, 10rem) 4rem;
+      padding: 80px clamp(1.5rem, 5vw, 6rem) 4rem;
+      text-align: left;
     }
     .hero-bg {
       position: absolute;
@@ -103,7 +105,11 @@
     .hero-content {
       position: relative;
       z-index: 1;
-      max-width: 760px;
+      max-width: 900px;
+      width: 100%;
+    }
+    .hero h1 {
+      font-size: clamp(3rem, 8vw, 7rem);
     }
     .hero-eyebrow {
       display: inline-flex;
